@@ -1,0 +1,156 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restaurant Menu</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #000;
+      color: #fff;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #ffcc00;
+    }
+    .category {
+      background: #111;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 12px;
+      border-left: 5px solid #ffcc00;
+    }
+    .category h2 {
+      color: #ffcc00;
+    }
+    ul li {
+      margin: 6px 0;
+    }
+    .price {
+      float: right;
+      color: #ffcc00;
+    }
+    .order-btn {
+      display: inline-block;
+      background: #ffcc00;
+      color: #000;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>HOUSE OF FLAVOURS</h1>  <div class="category">
+    <h2>🍕 Pizza</h2>
+    <ul>
+      <li>Margherita <span class="price">110 / 220</span></li>
+      <li>Cheese & Tomato <span class="price">110 / 220</span></li>
+      <li>Spicy Tango Pizza <span class="price">140 / 269</span></li>
+      <li>Double Margherita <span class="price">140 / 269</span></li>
+      <li>Farm Fresh <span class="price">160 / 309</span></li>
+      <li>Country Feast <span class="price">160 / 309</span></li>
+      <li>Mexican Green <span class="price">160 / 309</span></li>
+      <li>Peppy Paneer <span class="price">180 / 349</span></li>
+      <li>Veg Extravaganza <span class="price">219 / 389</span></li>
+    </ul>
+  </div>  <div class="category">
+    <h2>🍔 Burgers</h2>
+    <ul>
+      <li>Veg Burger <span class="price">29</span></li>
+      <li>Cheese Burger <span class="price">40</span></li>
+      <li>Chunky Cheese Burger <span class="price">50</span></li>
+      <li>Chipotley Burger <span class="price">50</span></li>
+      <li>Achari Tandoori Paneer Burger <span class="price">70</span></li>
+      <li>Smoky Tandoori Paneer Burger <span class="price">80</span></li>
+      <li>Crunchy Kurkure Burger <span class="price">70</span></li>
+      <li>Maharaja Burger (2 Patty) <span class="price">100</span></li>
+    </ul>
+  </div>  <div class="category">
+    <h2>🍞 Sandwich</h2>
+    <ul>
+      <li>Veg Sandwich <span class="price">40 / 70</span></li>
+      <li>Paneer Sandwich <span class="price">60 / 80</span></li>
+      <li>Sweet Corn Sandwich <span class="price">40 / 70</span></li>
+      <li>Cheese Pizza Sandwich <span class="price">50 / 90</span></li>
+      <li>Stuff Kulcha <span class="price">70</span></li>
+    </ul>
+  </div>  <div class="category">
+    <h2>🍝 Pasta</h2>
+    <ul>
+      <li>White Sauce Pasta <span class="price">100</span></li>
+      <li>Red Sauce Pasta <span class="price">100</span></li>
+      <li>Mix Sauce Pasta <span class="price">120</span></li>
+      <li>Achari Sauce Pasta <span class="price">120</span></li>
+      <li>Makhni Sauce Pasta <span class="price">140</span></li>
+    </ul>
+  </div>  <div class="category">
+    <h2>🍜 Chinese</h2>
+    <ul>
+      <li>Veg Noodles <span class="price">70</span></li>
+      <li>Hakka Noodles <span class="price">80</span></li>
+      <li>Chilli Garlic Noodles <span class="price">100</span></li>
+      <li>Singapuri Noodles <span class="price">100</span></li>
+      <li>Chilli Potato <span class="price">80</span></li>
+      <li>Chilli Paneer (Dry) <span class="price">100</span></li>
+      <li>Manchurian (Dry/Gravy) <span class="price">100</span></li>
+      <li>Crunchy Kurkure Burger <span class="price">90</span></li>
+    </ul>
+  </div>  <div class="category">
+    <h2>🥤 Juices</h2>
+    <ul>
+      <li>Vegetable Juice <span class="price">30 / 40 / 50 / 60</span></li>
+      <li>Mosambi Juice <span class="price">30 / 50 / 60 / 80</span></li>
+      <li>Pineapple Juice <span class="price">30 / 50 / 60 / 80</span></li>
+      <li>Orange Juice <span class="price">40 / 50 / 60 / 80</span></li>
+      <li>Mix Fruit Juice <span class="price">40 / 50 / 60 / 80</span></li>
+      <li>Apple Juice <span class="price">60 / 80 / 100 / 120</span></li>
+      <li>Anar Juice <span class="price">80 / 100 / 120 / 140</span></li>
+    </ul>
+  </div>  <div class="category">
+    <h2>🍧 Shakes</h2>
+    <ul>
+      <li>Mango Shake <span class="price">30 / 40 / 50 / 60</span></li>
+      <li>Banana Shake <span class="price">30 / 40 / 50 / 60</span></li>
+      <li>Pineapple Shake <span class="price">30 / 40 / 50 / 60</span></li>
+      <li>Butter Scotch Shake <span class="price">40 / 50 / 80 / 120</span></li>
+      <li>Strawberry Shake <span class="price">40 / 50 / 80 / 120</span></li>
+      <li>Oreo Shake <span class="price">60 / 80 / 100 / 120</span></li>
+      <li>Vanilla Shake <span class="price">80 / 100 / 120 / 140</span></li>
+      <li>Chocolate Shake <span class="price">40 / 50 / 60 / 80</span></li>
+      <li>KitKat Shake <span class="price">60 / 80 / 100 / 120</span></li>
+    </ul>
+  </div>  <div class="category">
+    <h2>📍 Location</h2>
+    <p>NH-58, Khushiram Plaza, Beside Cycle Stand, Near Railway Station, Sakoti, Meerut</p>
+  </div>  <div class="category">
+    <h2>📞 Contact</h2>
+    <p>6396179756 | 9286779756</p>
+    <a class="order-btn" href="tel:6396179756">Order Now</a>
+  </div>
+  <section id="gallery" class="container">
+    <h2>📸 Gallery</h2>
+    <div class="gallery-grid">
+      <img src="image1.jpg" alt="Delicious Food 1"/>
+      <img src="image2.jpg" alt="Delicious Food 2"/>
+      <img src="image3.jpg" alt="Delicious Food 3"/>
+    </div>
+  </section>  <section id="reviews" class="container">
+    <h2>⭐ Customer Reviews</h2>
+    <div class="review-card">
+      <p>“Best taste in Sakoti! Must try pizza and cold coffee!”</p>
+      <span>- Local Customer</span>
+    </div>
+    <div class="review-card">
+      <p>“Amazing quality at best prices. Quick delivery too!”</p>
+      <span>- Google User</span>
+    </div>
+  </section>  <section id="delivery" class="hero">
+    <h2>🛵 Fast Home Delivery Available</h2>
+    <p>Order anytime between 10 AM - 11 PM</p>
+  </section></body>
+  </html>
